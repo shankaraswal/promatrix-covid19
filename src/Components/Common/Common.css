@@ -1,0 +1,65 @@
+.header {
+  background: #eee;
+}
+
+.siteLogo {
+  max-height: 40px;
+}
+
+.bannerBucket img {
+  margin: 0;
+  width: 100%;
+}
+
+.homeBucket {
+  margin-top: 3rem;
+}
+.homeBucket h3 {
+  color: #dc3545;
+  border-bottom: 0px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.featuresBucket {
+  margin-bottom: 3rem;
+}
+.featuresBucket .card-title {
+  font-size: 25px;
+  color: rgb(67, 128, 2);
+  margin-bottom: 3rem;
+}
+
+.featuresBucket i {
+  font-size: 150px;
+  margin-bottom: 2rem;
+}
+
+.itemBucket {
+  background: #f6f6f6;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.itemBucket .card {
+  margin-bottom: 2rem;
+  border: 0;
+  background: rgb(105, 150, 56);
+  color: #fff;
+  border-radius: 0;
+}
+.sponsorBucket {
+  margin-bottom: 3rem;
+}
+.sponsorBucket div {
+  min-height: 300px;
+  border: 1px solid #ccc;
+  padding-top: 2rem;
+}
+
+footer {
+  min-height: 200px;
+  background: rgb(38, 38, 38);
+  padding-top: 3rem;
+  font-size: 20px;
+  color: #fff;
+}
