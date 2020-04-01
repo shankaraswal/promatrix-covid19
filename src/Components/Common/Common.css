@@ -1,5 +1,29 @@
 .header {
-  background: #eee;
+  background: #00735F;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom: 1px solid #fff;
+}
+
+.navbar img {
+  max-height: 60px;
+  ;
+}
+
+.navbar .nav-link {
+  font-size: 15px;
+  color: #fff;
+}
+
+.navbar .btn {
+  color: #fff;
+}
+
+.navbar .btnReg {
+  border-left: 1px solid #fff
 }
 
 .siteLogo {
@@ -11,11 +35,26 @@
   width: 100%;
 }
 
+.ctaBucket {
+  margin-top: -50px;
+  margin-bottom: 4rem;
+}
+
+.ctaBucket .btn {
+  font-size: 25px;
+  padding: 0 3rem;
+  text-transform: uppercase;
+  min-height: 80px;
+  min-width: 300px;
+  border: 2px solid #fff
+}
+
 .homeBucket {
   margin-top: 3rem;
 }
+
 .homeBucket h3 {
-  color: #dc3545;
+  color: #262626;
   border-bottom: 0px solid #ccc;
   padding-bottom: 1rem;
 }
@@ -23,9 +62,10 @@
 .featuresBucket {
   margin-bottom: 3rem;
 }
+
 .featuresBucket .card-title {
   font-size: 25px;
-  color: rgb(67, 128, 2);
+  color: #00735f;
   margin-bottom: 3rem;
 }
 
@@ -35,21 +75,28 @@
 }
 
 .itemBucket {
-  background: #f6f6f6;
+  background: #00735f;
   margin-bottom: 3rem;
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
+
+.itemBucket h3 {
+  color: #fff;
+}
+
 .itemBucket .card {
   margin-bottom: 2rem;
-  border: 0;
-  background: rgb(105, 150, 56);
-  color: #fff;
-  border-radius: 0;
+  background: #fff;
+  color: #262626;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
+
 .sponsorBucket {
   margin-bottom: 3rem;
 }
+
 .sponsorBucket div {
   min-height: 300px;
   border: 1px solid #ccc;
@@ -58,7 +105,7 @@
 
 footer {
   min-height: 200px;
-  background: rgb(38, 38, 38);
+  background: #262626;
   padding-top: 3rem;
   font-size: 20px;
   color: #fff;

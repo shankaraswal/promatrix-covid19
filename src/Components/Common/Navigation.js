@@ -1,11 +1,15 @@
 import React, { Component } from "react";
-import Sitelogo from "../../Assets/Sitelogo.png";
-import { BrowserRouter as Router, NavLink } from "react-router-dom";
+import Sitelogo from "../../Assets/Sitelogo1.jpg";
+import {
+  BrowserRouter as Router,
+  NavLink,
+  Link
+} from "react-router-dom";
 
 export default class Navigation extends Component {
   render() {
     return (
-      <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+      <nav className='navbar navbar-expand-lg'>
         <div className='container navBucket'>
           <Router>
             <NavLink className='navbar-brand' to='/'>
@@ -35,18 +39,17 @@ export default class Navigation extends Component {
                   </NavLink>
                 </li>
               </ul>
-              <ul className='navbar-nav ml-5'>
-                <li className='nav-item'>
-                  <NavLink className='nav-link' to='/'>
-                    Login
-                  </NavLink>
-                </li>
-                <li className='nav-item'>
-                  <NavLink className='nav-link' to='/'>
-                    Register
-                  </NavLink>
-                </li>
-              </ul>
+              <div
+                class='navbar-nav ml-5 btn-group'
+                role='group'
+                aria-label='Basic example'>
+                <Link to='/login' class='btn btn-warning'>
+                  Login
+                </Link>
+                <Link to='register' class='btn btn-warning btnReg'>
+                  Register
+                </Link>
+              </div>
             </div>
           </Router>
         </div>
