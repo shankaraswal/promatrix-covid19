@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Sitelogo from "../../Assets/Sitelogo1.jpg";
+import Sitelogo from "../../Assets/Sitelogo.png";
 import {
   BrowserRouter as Router,
   NavLink,
@@ -43,10 +43,10 @@ export default class Navigation extends Component {
                 class='navbar-nav ml-5 btn-group'
                 role='group'
                 aria-label='Basic example'>
-                <Link to='/login' class='btn btn-warning'>
+                <Link to='/login' class='btn btn-danger'>
                   Login
                 </Link>
-                <Link to='register' class='btn btn-warning btnReg'>
+                <Link to='/register' class='btn btn-danger btnReg'>
                   Register
                 </Link>
               </div>

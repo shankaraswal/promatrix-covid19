@@ -4,8 +4,8 @@ export default class Items extends Component {
   render() {
     return (
       <div className='itemBucket'>
-        <div className='container'>
-          <h3>DONATE ALMOST ANYTHING</h3>
+        <h3>DONATE ALMOST ANYTHING</h3>
+        <div className='container itemGrid'>
           <div className='row'>
             <div className='col-sm-3'>
               <div className='card'>

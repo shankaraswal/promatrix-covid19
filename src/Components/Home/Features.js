@@ -8,14 +8,13 @@ export default class Features extends Component {
         <div className='card-deck'>
           <div className='card'>
             <div className='card-body'>
-              <h5 className='card-title'>Schedule a Pickup</h5>
+              <h5 className='card-title'>Material Collection</h5>
               <i class='fa fa-car' aria-hidden='true'></i>
 
               <p className='card-text'>
-                Enter the pickup location, and schedule a pickup.
-                *convenience fee applicable. You can also choose to go
-                for the drop off option in case you want to drop the
-                donations yourself.
+                Appeal to citizens.
+                <br /> Leverage existing resources/infrastructure.
+                <br /> Enable/promote hygienic procurement.
               </p>
             </div>
           </div>
@@ -25,9 +24,8 @@ export default class Features extends Component {
               <i class='fa fa-home' aria-hidden='true'></i>
 
               <p className='card-text'>
-                We will come to your doorstep to pick up the donations
-                in the chosen slot and deliver them to the NGO where
-                they can be given a new life.
+                Location based smartphone application. <br />
+                Broadcast vital pickup/drop-off information.
               </p>
             </div>
           </div>
@@ -37,8 +35,9 @@ export default class Features extends Component {
               <i class='fa fa-shopping-bag' aria-hidden='true'></i>
 
               <p className='card-text'>
-                This is a wider card with supporting text below as a
-                natural lead-in to additional content.
+                Utilize first responders to enable safe distribution.
+                <br />
+                Need based location prioritizing/distribution.
               </p>
             </div>
           </div>
